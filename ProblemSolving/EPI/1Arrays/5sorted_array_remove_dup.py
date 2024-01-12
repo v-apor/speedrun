@@ -13,7 +13,7 @@ def delete_duplicates(A: list[int]) -> int:
             A[write_index] = A[position]
             write_index += 1
         position += 1
-    return  write_index
+    return write_index
 
 
 A = [2, 3, 5, 5, 7, 11, 11, 11, 13, 13, 17, 19, 23]
